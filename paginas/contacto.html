@@ -5,28 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/android-icon-192x192.png" type="image/x-icon">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../css/disenioIndex.css" type="text/css">
 
     <title>Licorera CM</title>
 </head>
 <body>
-    <header>
-        <h1>LICORERA CM</h1>
-        <h2>Contacto</h2>
-    </header>
-    <main>
-        <p>Puedes saber mas de nosotros suscribiendote en nuestras redes sociales</p>
-        <div class="contacto">
-            <a href="https://www.facebook.com/" target="_blank"><img src="../img/facebook.png" alt=""></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="../img/instagram.png" alt=""></a>
-            <a href="https://twitter.com/" target="_blank"><img src="../img/twitter.png" alt=""></a>
-            <a href="https://www.youtube.com/" target="_blank"><img src="../img/youtube.png" alt=""></a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">LICORERA CM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./quienSomos.html">¿Quienes Somos?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./registro.html">Registro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>              
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./sugerencias.html">Sugerencias</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
         </div>
-    </main>
-    <footer>
-        <br><br>
-        <a href="../index.html" class="btn">ATRAS</a>
-        <h4>By: Cristian Montes</h4>
-    </footer>
+      </nav>
+      <div class="container">
+        <main>
+          <div class="py-5 text-center">
+            <h2>Contacto</h2>
+            <p class="lead">Visita nuestras redes sociales para que estes mas actualizado de lo que te podemos ofrecer</p>
+          </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+                <div class="text-center">
+                    <img src="../img/facebook.png" class="rounded" alt="..." width="200px">
+                    <h5 class="card-title">Facebook</h5>
+                    <a href="https://www.facebook.com/" class="btn btn-dark" target="_blank">Ir</a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                  <div class="text-center">
+                      <img src="../img/instagram.png" class="rounded" alt="..." width="200px">
+                      <h5 class="card-title">Instagram</h5>
+                      <a href="https://www.instagram.com/" class="btn btn-dark" target="_blank">Ir</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                  <div class="text-center">
+                      <img src="../img/youtube.png" class="rounded" alt="..." width="200px">
+                      <h5 class="card-title">Youtube</h5>
+                      <a href="https://www.youtube.com/" class="btn btn-dark" target="_blank">Ir</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                  <div class="text-center">
+                      <img src="../img/twitter.png" class="rounded" alt="..." width="200px">
+                      <h5 class="card-title">Twitter</h5>
+                      <a href="https://www.twitter.com/" class="btn btn-dark" target="_blank">Ir</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        
+      </div>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">© 2022 Company, Inc</p>      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">By Cristian Montes</a></li> 
+          </ul>
+        </footer>
+      </div>
+
+    <script src="../bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
